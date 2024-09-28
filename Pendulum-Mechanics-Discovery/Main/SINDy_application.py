@@ -12,10 +12,9 @@ X = df[['x0', 'x1']].values
 
 print(X)
 
-polynomial_library = ps.PolynomialLibrary(degree=1)
-fourier_library = ps.FourierLibrary(n_frequencies=2)
+Theta = ps.PolynomialLibrary(degree=3) + ps.FourierLibrary()
 
-model = ps.SINDy(feature_library=polynomial_library + fourier_library)
+model = ps.SINDy(feature_library=Theta)
 
 model.fit(X, t=time)
 model.print()
