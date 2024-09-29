@@ -6,7 +6,7 @@ from datetime import datetime
 import os
 
 if __name__ == "__main__":
-    k = 100
+    k = 20
     # simulating until t=10, for k time-steps
     t = np.linspace(0, 10, k)
     # length of the rod
@@ -41,7 +41,6 @@ if __name__ == "__main__":
 
     # storing the data to a data-frame, for angular displacement and velocity
     df = pd.DataFrame({
-        'time': t,
         'x0': theta_t,
         'x1': theta_t_prime
     })
