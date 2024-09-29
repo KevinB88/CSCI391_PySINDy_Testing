@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 # extract trajectory data from the csv
-data = '/Users/kbedoya88/Desktop/QC24-Fall-Semester/Computer-Science-Research/Equation-Discovery/Project/Setup/391_SINDy_Testing/Pendulum-Mechanics-Discovery/DataPath/Pendulum_Data_09-28-2024-21-09-1727572905.csv'
+data = '/Users/kbedoya88/Desktop/QC24-Fall-Semester/Computer-Science-Research/Equation-Discovery/Project/Setup/391_SINDy_Testing/Pendulum-Mechanics-Discovery/DataPath/Latex-Data/Pendulum_Data_09-28-2024-21-09-1727572905.csv'
 
 df = pd.read_csv(data)
 time = np.linspace(0, 10, 20)
@@ -59,5 +59,12 @@ plt.xlabel('time')
 plt.ylabel('angle (theta)')
 plt.legend()
 plt.show()
+
+'''
+Evaluate the terms from the provided data-matrix on the appropriate terms
+
+
+
+'''
 
 

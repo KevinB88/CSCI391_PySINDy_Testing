@@ -36,9 +36,9 @@ def save_latex_to_file(latex_code, directory, filename):
     print(f"Latex matrix saved to {file_path}")
 
 
-csv_file_path = '/Users/kbedoya88/Desktop/QC24-Fall-Semester/Computer-Science-Research/Equation-Discovery/Project/Setup/391_SINDy_Testing/Pendulum-Mechanics-Discovery/DataPath/Latex-Data/coefficients_data_09-28-2024-21-09-1727573060.csv'
+csv_file_path = '/Users/kbedoya88/Desktop/QC24-Fall-Semester/Computer-Science-Research/Equation-Discovery/Project/Setup/391_SINDy_Testing/Pendulum-Mechanics-Discovery/DataPath/Latex-Data/library_fitted_data_09-29-2024-15-09-1727637695.csv'
 latex_code = csv_to_latex_matrix(csv_file_path)
 
 destination = fp.latex_data_fp
-filename = 'coefficient-data-matrix.txt'
+filename = 'library-fitted-data-matrix.txt'
 save_latex_to_file(latex_code, destination, filename)
