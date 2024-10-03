@@ -6,9 +6,9 @@ from datetime import datetime
 import os
 
 if __name__ == "__main__":
-    k = 20
+    k = 500
     # simulating until t=10, for k time-steps
-    t = np.linspace(0, 10, k)
+    t = np.linspace(0, 50, k)
     # length of the rod
     length = 3
 
