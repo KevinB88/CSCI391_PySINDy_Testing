@@ -1,0 +1,5 @@
+Optimizer used: STLSQ()
+FiniteDifference(axis=-2)
+(x0)' = -0.384 x0 + 0.874 x1 + 0.466 sin(1 x0) + 0.192 sin(1 x1)
+(x1)' = -1.132 1 + -2.371 x0 + -0.973 sin(1 x0) + 1.248 cos(1 x0) + 0.507 cos(1 x1)
+Mean squared error (angular displacement) : 1.0478516693810136

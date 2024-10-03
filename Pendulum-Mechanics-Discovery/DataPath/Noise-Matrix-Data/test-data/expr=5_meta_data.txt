@@ -1,0 +1,4 @@
+Optimizer used: STLSQ()
+FiniteDifference(axis=-2)
+(x0)' = 0.422 x0 + 0.971 x1 + -0.481 sin(1 x0)
+(x1)' = -3.058 x0 + -0.194 sin(1 x0)
