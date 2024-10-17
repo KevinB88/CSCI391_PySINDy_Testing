@@ -1,0 +1,8 @@
+Train time: 8000 time steps.
+Full time: 10000 time steps.
+Data percentage: 80.0 %
+Alpha:  10.450820270424163
+Optimizer used: STLSQ()
+FiniteDifference(axis=-2)
+(x0)' = -0.728 1 + -0.535 x1 + 0.560 cos(1 x0) + 2.229 sin(1 x1) + 1.607 cos(1 x1)
+(x1)' = 0.207 1 + 0.851 x0 + 0.233 x1 + -3.204 sin(1 x0) + -0.190 cos(1 x0) + -0.536 sin(1 x1) + -0.806 cos(1 x1)

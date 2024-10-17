@@ -1,0 +1,7 @@
+Time partition: 500
+Alpha:  0.10435505390903842
+Optimizer used: STLSQ()
+FiniteDifference(axis=-2)
+(x0)' = 0.994 x1
+(x1)' = -3.279 x0 + 0.030 sin(1 x0)
+Mean squared error (None) : 0.040624232626358926

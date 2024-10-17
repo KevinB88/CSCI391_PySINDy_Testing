@@ -1,0 +1,10 @@
+/usr/local/bin/python3.9 /Users/kbedoya88/Desktop/QC24-Fall-Semester/Computer-Science-Research/Equation-Discovery/Project/Setup/391_SINDy_Testing/Pendulum-Mechanics-Discovery/Main/SINDy_application.py
+Train time: 4000 time steps.
+Full time: 10000 time steps.
+Data percentage: 40.0 %
+Alpha:  1.0450820270424164
+Optimizer used: STLSQ()
+FiniteDifference(axis=-2)
+(x0)' = 1.705 x1 + -0.947 sin(x1)
+(x1)' = 0.602 x0 + -0.103 x1 + -1.842 sin(x0) + 0.110 sin(x1)
+Mean squared error (None) : 1.6715630779500665

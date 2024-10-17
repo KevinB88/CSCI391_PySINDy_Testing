@@ -1,0 +1,7 @@
+Number of time-steps in original data  1000
+Alpha:  None
+Optimizer used: STLSQ()
+FiniteDifference(axis=-2)
+(x0)' = 0.499 x1
+(x1)' = -1.631 x0
+Mean squared error (None) : 0.007465673811937231

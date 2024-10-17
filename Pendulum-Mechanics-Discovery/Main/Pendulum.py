@@ -6,7 +6,7 @@ from datetime import datetime
 import os
 
 if __name__ == "__main__":
-    k = 500
+    k = 1000
     # simulating until t=10, for k time-steps
     t = np.linspace(0, 50, k)
     # length of the rod
@@ -19,7 +19,7 @@ if __name__ == "__main__":
     w = np.sqrt(g / length)
 
     # max angular displacement
-    theta_max = 1
+    theta_max = 0.99
 
     # angle as a function of time
     theta_t = theta_max * np.cos(w * t)
